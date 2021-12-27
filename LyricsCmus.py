@@ -13,7 +13,7 @@ def EmbedLyrics(audioFile, lyrics):
            audioFile.save()
            print('Tags updated sucefully')
         
-    except TypeError:
+    except:
         print('Failed to update tags')
 
 def GetPosition(word, array):
