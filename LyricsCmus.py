@@ -9,7 +9,7 @@ def EmbedLyrics(audioFile, lyrics):
     choice = input('Do you wish to embed the above lyrics in the file? [y/N] ')
     try:
        if choice == 'y' or choice =='Y':
-           audioFile['UNSYNCEDLYRICS'] = lyrics
+           audioFile['LYRICS'] = lyrics
            audioFile.save()
            print('Tags updated sucefully')
         
