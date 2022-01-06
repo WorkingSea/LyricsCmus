@@ -20,8 +20,7 @@ def GetPosition(word, array):
     position_of_word = 0
     for position, line in enumerate(array):
         if word in line:
-            position_of_word += position
-    return position_of_word
+            return position
 
 def GetLyrics(metadata):
     for string in lyrics_strings:
