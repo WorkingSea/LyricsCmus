@@ -24,7 +24,7 @@ def GetPosition(word, array):
 
 def GetLyrics(metadata):
     for string in lyrics_strings:
-        if GetPosition(string, metadata) > 0:
+        if GetPosition(string, metadata) != None:
             return string
     
 def DisplayLyrics(musicPath):
