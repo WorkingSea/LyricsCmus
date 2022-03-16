@@ -9,4 +9,4 @@ pip install pycmus
 pip install beautifulsoup4
 ```
 
-And you can run the script by doing ./lyricscmus insid the folder you put the files in.
+And you can run the script by doing ./lyricscmus inside the folder you put the files in.
